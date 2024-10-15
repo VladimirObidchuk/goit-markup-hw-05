@@ -434,13 +434,33 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form" autocomplete="off">
+            <div class="subscribe-send">
+              <label class="subscribe-label" for="emailsubscribe"></label>
+              <input
+                id="emailsubscribe"
+                type="email"
+                class="subscribe-input"
+                placeholder="E-mail"
+              />
+            </div>
+            <button type="submit" class="subscribe-buttom">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="modal-overlay">
       <div class="modal">
         <div class="container">
           <div class="clouse-block">
-            <button class="clouse-button">
+            <button class="clouse-button" type="button">
               <svg class="icon-clouse" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>
@@ -472,7 +492,7 @@
             <label class="label-form" for="user-issue">Comment</label>
             <textarea id="user-issue" class="user-description" rows="5"></textarea>
             <div class="form-fild">
-              <input type="checkbox" name="answer" value="accept" id="corvus" />
+              <input type="checkbox" name="answer" value="accept" id="accept" />
               <label for="accept" class="checked-label">
                 I accept the terms and conditions of the
                 <a href="#" class="form-link"> Privacy Policy</a>
