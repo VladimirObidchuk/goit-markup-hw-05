@@ -633,7 +633,7 @@ input[type="email"]:focus + svg {
 .checked-link {
   color: #4d5ae5;
 }
-input[type="checkbox"]:checked + .label-form.form-link {
+input[type="checkbox"]:checked + label .form-link {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -666,8 +666,6 @@ input[type="checkbox"]:checked + .label-form.form-link {
   margin: -1px;
   border: 0;
   padding: 0;
-  /* white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0); */
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
