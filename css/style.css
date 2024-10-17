@@ -639,7 +639,7 @@ input[type="email"]:focus + svg {
   color: #8e8f99;
 }
 .form-link {
-  display: inline-flex;
+  display: inline-flex !important;
   width: 16px;
   height: 16px;
   line-height: 1.33;
