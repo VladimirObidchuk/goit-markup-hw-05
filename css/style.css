@@ -629,17 +629,19 @@ input[type="email"]:focus + svg {
   position: relative;
   margin-bottom: 24px;
 }
+
 .checked-label {
-  display: flex;
-  align-items: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  padding-left: 24px;
 }
 .form-link {
   display: inline-flex !important;
+  position: absolute;
+  left: 0;
   width: 16px;
   height: 16px;
   line-height: 1.33;
@@ -657,6 +659,7 @@ input[type="email"]:focus + svg {
 }
 .checked-link {
   color: #4d5ae5;
+  display: inline;
   padding-left: 4px;
 }
 input[type="checkbox"]:checked + label .form-link {
