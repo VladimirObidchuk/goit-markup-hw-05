@@ -628,6 +628,8 @@ input[type="email"]:focus + svg {
 }
 .form-link {
   display: inline-flex;
+  position: fixed;
+  left: 0;
   width: 16px;
   height: 16px;
   line-height: 1.33;
@@ -641,6 +643,7 @@ input[type="email"]:focus + svg {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 24px;
 }
 .checked-link {
   color: #4d5ae5;
